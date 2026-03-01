@@ -5,7 +5,6 @@ void main() {
   // print(num.parse('12'));
   // print(num.parse('20.9'));
 
-
 // Tugas TypeData
 // nomer 1
 // var word = "dart";
@@ -163,8 +162,44 @@ void main() {
 //   print('#########');
 // }
 
-for(var test = 1;test < 6;test++){
- print('#' * test);
+// for(var test = 1;test < 6;test++){
+//  print('#' * test);
+// }
+
+// memanggil function
+teriak();
+
+
+// nomer 2
+var num1 = 12;
+var num2 = 4;
+
+var hasilKali = kalikan(num1, num2);
+print(hasilKali);
+
+
+// nomer 3
+var name = "timus";
+var age = 20;
+var address = "Jln. Malioboro, Yogyakarta";
+var hobby = "Jalan jalan";
+ 
+var perkenalan = introduce(name, age, address, hobby);
+print(perkenalan); 
+
 }
 
+// function nomer 1
+teriak(){
+  print('halo sanbers');
+}
+
+// function nomer 2
+kalikan(num1,num2){
+  return num1 * num2 ;
+}
+
+// function nomer 3
+introduce(name, age, address, hobby){
+  return ('nama saya $name, umur saya $age, alamat saya $address , hobby saya $hobby');
 }
