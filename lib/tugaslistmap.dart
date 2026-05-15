@@ -47,12 +47,12 @@ dataHandling(input);
 ['003', 'mus', '20/20/2005']
 ];
 
-dataHandling(data){
+dataHandling(input){
 
   for (var i = 0; i < input.length; i++){
-    print(data[i][2]);
-    print(data[i][0]);
-    print(data[i][1]);
+    print("id : " + input[i][0]);
+    print("TTL : " + input[i][2]);
+    print("nama : " + input[i][1]);
   }
 return "selesai";
 }
